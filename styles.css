@@ -1,0 +1,38 @@
+body {
+    background-color:burlywood;
+}
+
+.test {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: aliceblue;
+  text-align: center;
+}
+
+.mail:hover {
+    color: blueviolet;
+}
+
+#visibility {
+    color: rgb(94, 201, 209);
+    font-weight: bold;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ nav a:hover {
+    background-color: gainsboro;
+    padding: 1px
+}
+
+nav a {
+    text-decoration: none;
+}

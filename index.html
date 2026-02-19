@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheesesteaks</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="invisible()">
+    <nav>
+        <a href="pictures.html">Pictures</a>
+    </nav>
+
+    <h1 class="test">Food I love</h1>
+    <p class="test">Philly cheesesteaks are <b>delicious</b>.</p>
+    
+    <button id="visibility" onclick="toggleVisibility()">Click me</button>
+
+    <img src="images/icon.png" alt="Cheesesteak" id="hiddenImage">
+
+<script>
+function toggleVisibility() {
+    let image = document.getElementById("hiddenImage");
+    if (image.style.display === "none") {
+        image.style.display = "block";
+    } else {
+        image.style.display = "none";
+    }
+}
+
+function invisible() {
+    let image = document.getElementById("hiddenImage");
+    image.style.display = "none";
+}
+</script>
+
+    <footer class="test">
+        <p>Contact me at:</p>
+        <a class="mail" href="mailto:example@email.com">example@email.com</a>
+    </footer>
+</body>
+</html>
